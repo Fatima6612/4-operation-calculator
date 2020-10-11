@@ -1,0 +1,41 @@
+#include<iostream>;
+#include<conio.h>;
+using namespace std;
+
+int main()
+{
+	int a, b;
+	float c;
+	char ope;
+	cout << "enter a value: ";
+	cin >> a;
+	cout << "enter b value: ";
+	cin >> b;
+	cout << "enter operation (+, -, * and /): ";
+	cin >> ope;
+	if (ope == '+')
+	{
+		c = a + b;
+		cout << c;
+
+	}
+	if (ope == '-')
+	{
+		c = a - b;
+		cout << c;
+	}
+	if (ope == '*')
+	{
+		c = a * b;
+		cout << c;
+	}
+	if (ope == '/')
+	{
+		c = a / b;
+		cout << c;
+	
+	}
+	
+	return 0;
+
+}
